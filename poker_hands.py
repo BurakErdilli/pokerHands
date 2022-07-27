@@ -147,6 +147,7 @@ def main():
     hand1 = deal(deck, 5)
     hand2 = deal(deck, 5)
     show_compare_hands(hand1, hand2)
-    rank_distribution()
+    # rank_distribution()
     test_random_hands()
     
+main()
